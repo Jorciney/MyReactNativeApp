@@ -28,36 +28,9 @@ export default class App extends Component<Props> {
 const styles = StyleSheet.create({
     container: {
         backgroundColor: "#325B7F",
-        flex: 3,
+        flexDirection: 'column',
+        flex: 1,
         alignItems: "center",
         justifyContent: 'center'
-    },
-    welcome: {
-        fontSize: 30,
-        textAlign: 'center',
-        color: '#fff',
-        margin: 10,
-        marginBottom: 40
-    },
-    username: {
-        fontSize: 20,
-        textAlign: 'center',
-        color: '#fff',
-        margin: 10,
-        marginBottom: 20
-    },
-    instructions: {
-        textAlign: 'center',
-        color: '#333333',
-        marginBottom: 5,
-    },
-    textInput: {
-        width: 300,
-        borderRadius: 3,
-        backgroundColor: "#ffffff",
-        marginTop: 20
-    },
-    loginButtonContainer: {
-        marginTop: 20, width: 300, height: 45
     }
 });
